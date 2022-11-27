@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Glitch&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+header{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+header > #logo{
+    margin-left: 50px;
+}
+header > .menu{
+    margin-right: 20px;
+}
+#logo > h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: medium;
+    color: rgb(0, 255, 191);
+}
+
+.menu > a{
+    color: aquamarine;
+    text-decoration: none;
+}
+
+.menu > a:hover{
+    color: black;
+}
+.quadros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.quadro-1{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 10%;
+}
+.quadro-1 > h3{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.8rem;
+}
+.quadro-1 > button{
+    display: flex;
+    justify-content: left;
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+    width: 100px;
+    background-color: blanchedalmond;
+}
+.quadro-1 > button > a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
